@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Generated files (recreate with the scripts)
+data/*.csv
+data/*.db
+output/*
+!output/.gitkeep
+
+# Power BI / OS / editor
+*.pbix.bak
+.DS_Store
+.vscode/
+.idea/
